@@ -4,6 +4,7 @@ from django.contrib.auth.models import User
 from rest_framework.authtoken.models import Token
 
 class PostSerializer(serializers.ModelSerializer):
+    autor = serializers.StringRelatedField()
     class Meta:
         model= Post
         fields = '__all__'

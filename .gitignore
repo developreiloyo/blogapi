@@ -1,1 +1,9 @@
-manage.py
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+venv/
+.env
+media/
+
